@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  font-size: large;
+ 
 }
 
 .App-logo {
@@ -19,4 +21,10 @@
 
 .App-link {
   color: #09d3ac;
+}
+
+ .Home {
+  text-align: center;
+  color: #09d3ac;
+  font-size: 123px;
 }

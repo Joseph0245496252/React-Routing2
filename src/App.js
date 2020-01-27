@@ -6,19 +6,19 @@ import Us from './Us'
 import Contact from './Contact';
 import Portofolio from './Portofolio';
 import Service from './Service'
-// import '/App.css';
+import './App.css';
 
 
 const App = () => {
   return (
     <Router>
           <div className="App">
-    <Link to="/">Home</Link>
-    <Link to="/about">About</Link>
-    <Link to="/contact">Contact</Link>
-    <Link to="/service">Contact</Link>
-    <Link to="/us">Us</Link>
-    <Link to="/Portofolio">Portofolio</Link>
+    <Link to="/"><button>Home</button></Link> <br />
+    <Link to="/about"><button>About</button></Link> <br />
+    <Link to="/contact"><button>Contact</button></Link> <br />
+    <Link to="/service"><button>Service</button></Link> <br />
+    <Link to="/us"><button>Us</button></Link> <br />
+    <Link to="/Portofolio"><button>Portofolio</button></Link> 
     
     </div>
 
